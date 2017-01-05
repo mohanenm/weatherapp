@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.9/font-awesome-animation.min.css'>
+
+   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+        <link rel = "stylesheet" type = "text/css" href = "weather.css"> 
+            <script src="weather.js"></script>
+
+</head>
+  
+<body>
+
+<div class= "container-fluid">
+<div class = "main text-primary">
+ <div class = "text"> <h2 id = "geo">  </h2> 
+
+   <div class = "col-xs-12"> 
+
+             <h3 id = "day0">  </h3>
+
+             <h3 id = "cond"> </h3> <h3 id ="temp"> </h3>
+
+               <h4 id = "weather"> Today's outlook: </h4>
+             
+               <h5 id = "des1"> <u><em>During the day</em></u>:   </h5>
+               <h5 id = "des2"> <u><em>Tonight<em></u>:   </h5>
+          </div>
+        </div>
+     </div>         
+
+     
+         <!-- <div class = "text">
+                         <h2 id ="high" >High: </h2>
+                         <h2 id ="low"> Low:  </h2>  </div> -->
+<div class = container>
+                                            <div class = "col-xs-12">                     
+                                         <h2 class="cast">Forecast: </h2>
+                                                    </div>                     
+<div class = "col-md-4">                     
+ <div class = "f">
+   <h4 id = "day"> </h4> 
+    <h4 id = "forecast">  </h4>
+       <h5 id = "high1">Temp-High: </h5> 
+       <h5 id = "low1">Temp-Low: </h5>
+       <h5 id = "wind1"> Wind-Speed: </h5>
+       <h5 id = "winddir1"> Wind-Dir: </h5>
+       <!--<h5 id = "data1">Total-Precip: </h5> -->
+    </div>
+</div>
+
+
+                     <div class = "col-md-4">
+                      <div class = "f1">
+                       <h4 id = "day1"> </h4> 
+                        <h4 id = "1"> </h4>
+                         <h5 id = "high2">Temp-High: </h5> 
+                          <h5 id = "low2">Temp-Low: </h5>
+                         <h5 id = "wind2"> Wind-Speed: </h5>
+                        <h5 id = "winddir2"> Wind-Dir: </h5>
+                       <!-- <h5 id = "data2">Total-Precip: </h5> -->
+                      </div>
+                    </div>
+
+
+
+
+ <div class = "col-md-4">
+   <div class = "f2">
+     <h4 id = "day2"> </h4> 
+       <h4 id = "2"> </h4>
+       <h5 id = "high3">Temp-High: </h5> 
+       <h5 id = "low3">Temp-Low: </h5>
+       <h5 id = "wind3"> Wind-Speed: </h5>
+       <h5 id = "winddir3"> Wind-Dir: </h5>
+      <!-- <h5 id = "data3">Total-Precip: </h5> -->
+   </div>
+  </div>
+ </div>
+
+<!--
+ <div class = "col-xs-12"> 
+     <div class = "sat"> 
+     <p id="satellite"> </p>
+        <h5> Satellite Images of Your Location</h5>
+     </div>
+ </div>
+-->
+  <div class ="by">
+                            
+<a href="https://twitter.com/share" class="by twitter-share-button" data-text="Weather App" data-via="@eththenet" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                <h6> <b>By Ethan <sup> Mohan <sup></b></h6>
+</div>
+</body>
+
+ <script>                                  
+
+$(document).ready(function(){
+      
+      $("#geo").addClass("animated bounce"); 
+      
+      
+      });
+
+
+</script>
+
+
+</html>
+  
