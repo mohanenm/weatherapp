@@ -4,7 +4,7 @@
 $('head').append("<style> body { background-color: #"+randomColor+";"+"}"); */
 
 
-var apiKey = "&units=imperial&appid=57fc5ce9c845cddc46abe979fb367c2d"; 
+var apiKey = "apikey"; 
       
 $(function(){
 
